@@ -1,10 +1,8 @@
-Q1
-
 A person’s telephone number 
 string
 
 A person’s height
-decimal
+double
 
 A person’s age
 int
@@ -13,16 +11,16 @@ A person’s gender (Male, Female, Prefer Not To Answer)
 char
 
 A person’s salary
-decimal
+double
 
 A book’s ISBN
 string
 
 A book’s price
-decimal
+double
 
 A book’s shipping weight
-decimal
+double
 
 A country’s population
 long
@@ -32,6 +30,43 @@ long
 
 The number of employees in each of the small or medium businesses in the
 United Kingdom (up to about 50,000 employees per business)
-int
+long
+
+
+1. What happens when you divide an int variable by 0?
+System.DivideByZeroException: Attempted to divide by zero.
+
+2. What happens when you divide a double variable by 0?
+System.DivideByZeroException: Attempted to divide by zero.
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+it will display incorrect number
+
+4. What is the difference between x = y++; and x = ++y;?
+x=y++:  assign y into x, then increment by 1
+x=++y:  increment by 1 first, then assign y to x
+
+5. What is the difference between break, continue, and return when used inside a loop
+statement?
+break jumps out the loop
+continue will skip the current loop interation, continue to next iteration loop
+return will stop the loop, return the value and end the function 
+
+6. What are the three parts of a for statement and which of them are required?
+Initialization, condiction, iteration
+
+7. What is the difference between the = and == operators?
+= assign a value to a variable
+== compares value between left side and right side
+
+8. Does the following statement compile? for ( ; true; ) ;
+Yes, it will create a infinity loop
+
+9. What does the underscore _ represent in a switch expression?
+default case
+
+10. What interface must an object implement to be enumerated over by using the foreach
+statement?
+IEnumerable interface
 
 
