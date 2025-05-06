@@ -10,7 +10,7 @@ Array.Sort(), it can also use customize compare rule by define IComparer
 
 4. What property of an array object can be used to get the total number of elements in
 an array?
-Array.length()
+Array.Count()
 
 5. Can you store multiple data types in System.Array?
 No, only one type support
