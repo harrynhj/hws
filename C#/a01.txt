@@ -1,0 +1,37 @@
+Q1
+
+A person’s telephone number 
+string
+
+A person’s height
+decimal
+
+A person’s age
+int
+
+A person’s gender (Male, Female, Prefer Not To Answer)
+char
+
+A person’s salary
+decimal
+
+A book’s ISBN
+string
+
+A book’s price
+decimal
+
+A book’s shipping weight
+decimal
+
+A country’s population
+long
+
+The number of stars in the universe
+long
+
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)
+int
+
+
