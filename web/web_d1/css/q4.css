@@ -1,0 +1,149 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.background-image {
+    width: 100%;
+
+}
+
+.title {
+    position: absolute;
+    bottom: 32px;
+    right: 64px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 194, 194);
+
+
+    li {
+        padding: 10px;
+        text-align: center;
+        border-right: 1px solid #000;
+
+        list-style-type: none;
+    }
+
+
+
+    a {
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .first-nav {
+        background-color: rgb(158, 158, 158);
+    }
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sub-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image {
+    width: 40%;
+}
+
+.description {
+    padding: 10px;
+}
+
+.products {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.sub-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 71);
+}
+
+.sub-sub-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 102, 32);
+    font-size: 24px;
+}
+
+.sub-sub-news {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h4 {
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        color: green;
+    }
+}
+
+.news {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+.footer {
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.footer-content {
+    padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    height: 100%;
+}
